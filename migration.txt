@@ -1,0 +1,38 @@
+json class
+ version
+ schemas
+ stringDelimitator
+ quotePropertyNames
+ canonicalNotation
+ @parse(string)
+ @parseCursor(json, alias, dsid)
+ @encode(object)
+ @encodeArray(arrayOrCollection)
+ @encodeCursor(alias, dsid)
+ @declareSchema(name, schema)
+ @IsSchema(object, schemaName)
+ @IsArray(string)
+ @IsObject(string)
+
+jsonObject class
+ Buff
+ Schema
+ Url
+ @Add(prop, value)
+ @addArray(prop, values)
+ @ToJSON()
+ @Parse(string)
+ @parseFromSchema(schemaName)
+ @parseFromUrl(url)
+ @Import(source)
+ @Export(target)
+ @Is(schemaName)
+ @Clone()
+
+jsonArray class
+ Lines
+ Columns
+ @ToJSON()
+ @ToArray(array)
+ 
+ 
